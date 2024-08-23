@@ -14,38 +14,15 @@
             </plugin>
          </plugins>
       </pluginManagement>
+      <plugins>
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+               <source>7</source>
+               <target>7</target>
+            </configuration>
+         </plugin>
+      </plugins>
    </build>
-   <dependencyManagement>
-      <dependencies>
-         <dependency>
-            <groupId>root.project.projects</groupId>
-            <artifactId>logging</artifactId>
-            <version>1.0</version>
-         </dependency>
-         <dependency>
-            <groupId>root.project</groupId>
-            <artifactId>primary-source</artifactId>
-            <version>1.0</version>
-         </dependency>
-         <dependency>
-            <groupId>root.project.servlets</groupId>
-            <artifactId>servlet</artifactId>
-            <version>1.0</version>
-            <type>war</type>
-         </dependency>
-         <dependency>
-            <groupId>root.project</groupId>
-            <artifactId>ejbs</artifactId>
-            <version>1.0</version>
-            <type>ejb</type>
-         </dependency>
-      </dependencies>
-   </dependencyManagement>
-   <distributionManagement>
-      <site>
-         <id>site</id>
-         <name>project website</name>
-         <url>scp://local.company.com/websites/project.company.com/</url>
-      </site>
-   </distributionManagement>
 </project>
