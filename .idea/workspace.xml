@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0920010c-7ae0-4ab0-8806-74bf372672e7" name="Changes" comment="New Repo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/August28/SameLevelSubTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sep6/RansomNote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +48,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SameLevelSubTree">
+  <component name="RunManager" selected="Application.RansomNote">
     <configuration name="ConcatenatedWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="August27.ConcatenatedWords" />
       <module name="Leetcode-2024-Discord" />
@@ -75,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="August26.OpenLock" />
+    <configuration name="RansomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sep6.RansomNote" />
       <module name="Leetcode-2024-Discord" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="August26.*" />
+          <option name="PATTERN" value="Sep6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RansomNote" />
         <item itemvalue="Application.SameLevelSubTree" />
         <item itemvalue="Application.TopKFrequentElements" />
         <item itemvalue="Application.ConcatenatedWords" />
         <item itemvalue="Application.JumbledWords" />
-        <item itemvalue="Application.OpenLock" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724801873641</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New Repo">
+      <created>1724877151703</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724877151703</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
