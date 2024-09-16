@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0920010c-7ae0-4ab0-8806-74bf372672e7" name="Changes" comment="Cogbee coding questions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cogbee/PrintingNum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cogbee/ThreadMain.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/SyncDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ThreadMain">
+  <component name="RunManager" selected="Application.SyncDemo">
     <configuration name="Median" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sep6.Median" />
       <module name="Leetcode-2024-Discord" />
@@ -76,22 +74,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RansomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sep6.RansomNote" />
+    <configuration name="RunLRU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cogbee.RunLRU" />
       <module name="Leetcode-2024-Discord" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sep6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunLRU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cogbee.RunLRU" />
+    <configuration name="SyncDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.SyncDemo" />
       <module name="Leetcode-2024-Discord" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SyncDemo" />
         <item itemvalue="Application.ThreadMain" />
         <item itemvalue="Application.OddEvenPrinter" />
         <item itemvalue="Application.RunLRU" />
         <item itemvalue="Application.Median" />
-        <item itemvalue="Application.RansomNote" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726510681089</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Cogbee coding questions">
+      <created>1726512342241</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726512342241</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
