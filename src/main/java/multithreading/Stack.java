@@ -20,6 +20,7 @@ public class Stack {
     }
 
     public synchronized boolean push(int element) {
+        //Every object can be used as a synchronized , not primitive type
         //On writing synchronized in method signature, compiler is enclosing the code in synchronized(this)
         //synchronized (lock) {
         if (isFull())
