@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0920010c-7ae0-4ab0-8806-74bf372672e7" name="Changes" comment="Ziprecruiter coding questions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/Thread1.java" afterDir="false" />
+    <list default="true" id="0920010c-7ae0-4ab0-8806-74bf372672e7" name="Changes" comment="Multithread">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/multithreading/Thread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading/Thread1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/multithreading/ThreadTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading/ThreadTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726530884165</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Multithread">
+      <created>1726686903163</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726686903163</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +252,7 @@
     <MESSAGE value="Cogbee coding questions" />
     <MESSAGE value="multithread coding questions" />
     <MESSAGE value="Ziprecruiter coding questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ziprecruiter coding questions" />
+    <MESSAGE value="Multithread" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multithread" />
   </component>
 </project>
