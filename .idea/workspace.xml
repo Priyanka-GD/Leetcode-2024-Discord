@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0920010c-7ae0-4ab0-8806-74bf372672e7" name="Changes" comment="Multithread">
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/multithreading/Thread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading/Thread1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cogbee/OddEvenPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cogbee/OddEvenPrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/multithreading/ThreadTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading/ThreadTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -233,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726686903163</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Multithread">
+      <created>1726687824354</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726687824354</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

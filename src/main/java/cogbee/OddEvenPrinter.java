@@ -11,9 +11,9 @@ public class OddEvenPrinter {
 
     public static void main(String[] args) {
         OddThread oddThread = new OddThread();
-        oddThread.setName("1");
+        oddThread.setName("Thread-1");
         EvenThread evenThread = new EvenThread();
-        evenThread.setName("2");
+        evenThread.setName("Thread-2");
 
         oddThread.start();
         evenThread.start();
