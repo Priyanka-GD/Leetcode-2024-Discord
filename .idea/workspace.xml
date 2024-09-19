@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0920010c-7ae0-4ab0-8806-74bf372672e7" name="Changes" comment="Multithread synchronized leetcode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/TrafficLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/ZeroEvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/FizzBizz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -268,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726776930728</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Multithread synchronized leetcode">
+      <created>1726780597007</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1726780597007</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
