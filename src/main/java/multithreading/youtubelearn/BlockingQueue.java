@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.youtubelearn;
 
 import java.util.LinkedList;
 import java.util.Queue;

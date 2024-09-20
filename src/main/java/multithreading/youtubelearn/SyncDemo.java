@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.youtubelearn;
 
 
 // A Class used to send a message

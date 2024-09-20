@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.leetcode;
 
 //https://leetcode.com/problems/print-in-order/description/
 class PrintOrder {

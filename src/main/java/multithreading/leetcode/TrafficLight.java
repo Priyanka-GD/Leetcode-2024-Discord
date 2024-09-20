@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.leetcode;
 
 public class TrafficLight {
     boolean isGreen;

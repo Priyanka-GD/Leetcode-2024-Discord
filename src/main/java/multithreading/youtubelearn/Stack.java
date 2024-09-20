@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.youtubelearn;
 
 public class Stack {
     private int[] array;

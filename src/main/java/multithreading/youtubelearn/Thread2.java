@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.youtubelearn;
 
 public class Thread2 implements Runnable {
     @Override

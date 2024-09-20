@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.leetcode;
 //1115. Print FooBar Alternately
 class FooBar {
     private int n;

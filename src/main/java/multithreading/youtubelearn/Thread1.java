@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.youtubelearn;
 
 public class Thread1 extends Thread {
     public Thread1(String thread1) {

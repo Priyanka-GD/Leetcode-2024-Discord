@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.leetcode;
 
 import java.util.function.IntConsumer;
 
