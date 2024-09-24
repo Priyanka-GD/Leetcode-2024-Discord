@@ -1,4 +1,4 @@
-package Sep6;
+package discord.Sep6;
 
 import java.util.ArrayList;
 import java.util.List;

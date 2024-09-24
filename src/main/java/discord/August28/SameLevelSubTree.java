@@ -1,4 +1,4 @@
-package August28;
+package discord.August28;
 
 import java.io.IOException;
 import java.util.ArrayList;

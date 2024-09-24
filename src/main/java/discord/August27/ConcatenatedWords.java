@@ -1,4 +1,4 @@
-package August27;
+package discord.August27;
 
 import DAO.TrieNode;
 

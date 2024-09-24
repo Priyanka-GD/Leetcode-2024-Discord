@@ -1,4 +1,4 @@
-package August26;
+package discord.August26;
 
 import java.io.IOException;
 import java.util.*;

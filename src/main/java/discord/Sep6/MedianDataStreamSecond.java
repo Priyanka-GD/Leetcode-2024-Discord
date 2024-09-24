@@ -1,4 +1,4 @@
-package Sep6;
+package discord.Sep6;
 
 import java.util.Collections;
 import java.util.PriorityQueue;
