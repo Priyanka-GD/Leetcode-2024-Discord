@@ -1,11 +1,11 @@
 package main.DAO;
 
-public class Node {
+public class HashMapNode {
     int key;
     int val;
-    Node next;
+    HashMapNode next;
 
-    public Node(int key, int val) {
+    public HashMapNode(int key, int val) {
         this.key = key;
         this.val = val;
         this.next = null;

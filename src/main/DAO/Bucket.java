@@ -1,48 +1,48 @@
 package main.DAO;
 
 public class Bucket {
-    Node head;
+    HashMapNode head;
 
     public Bucket() {
-        head = new Node(-1, -1);
+        head = new HashMapNode(-1, -1);
     }
 
     private boolean contains(int key) {
-        Node currNode = head;
-        while (currNode != null) {
-            if (currNode.key == key)
+        HashMapNode currHashMapNode = head;
+        while (currHashMapNode != null) {
+            if (currHashMapNode.key == key)
                 return true;
-            currNode = currNode.next;
+            currHashMapNode = currHashMapNode.next;
         }
         return false;
     }
 
     public void remove(int key) {
-        Node currNode = head;
-        while (currNode != null) {
-            if (currNode.next.key == key) {
-                currNode.next = currNode.next.next;
+        HashMapNode currHashMapNode = head;
+        while (currHashMapNode.next != null) {
+            if (currHashMapNode.next.key == key) {
+                currHashMapNode.next = currHashMapNode.next.next;
                 return;
             } else
-                currNode = currNode.next;
+                currHashMapNode = currHashMapNode.next;
         }
     }
 
     public void put(int key, int val) {
         if (contains(key))
             remove(key);
-        Node newNode = new Node(key, val);
-        newNode.next = head.next;
-        head.next = newNode;
+        HashMapNode newHashMapNode = new HashMapNode(key, val);
+        newHashMapNode.next = head.next;
+        head.next = newHashMapNode;
     }
 
     public int get(int key) {
         if (contains(key)) {
-            Node currNode = head;
-            while (currNode != null) {
-                if (currNode.key == key)
-                    return currNode.val;
-                currNode = currNode.next;
+            HashMapNode currHashMapNode = head;
+            while (currHashMapNode != null) {
+                if (currHashMapNode.key == key)
+                    return currHashMapNode.val;
+                currHashMapNode = currHashMapNode.next;
             }
         }
         return -1;
