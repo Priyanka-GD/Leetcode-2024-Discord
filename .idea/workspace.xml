@@ -53,34 +53,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HashMapDesign.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RunLRU.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Priyanka/Desktop/Projects/Leetcode-2024-Discord/pom.xml&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DesignHashSet.executor": "Debug",
+    "Application.HashMapDesign.executor": "Run",
+    "Application.RunLRU.executor": "Run",
+    "Application.SearchWord.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/Priyanka/Desktop/Projects/Leetcode-2024-Discord/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.HashMapDesign">
-    <configuration name="CoordinatesCollide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ziprecruiter.CoordinatesCollide" />
-      <module name="Leetcode-2024-Discord" />
+}]]></component>
+  <component name="RunManager" selected="Application.PrefixTree">
+    <configuration name="DesignHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.neetcode75.DesignHashSet" />
+      <module name="project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ziprecruiter.*" />
+          <option name="PATTERN" value="main.neetcode75.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RottenTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ziprecruiter.RottenTree" />
-      <module name="Leetcode-2024-Discord" />
+    <configuration name="PrefixTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.neetcode75.PrefixTree" />
+      <module name="project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ziprecruiter.*" />
+          <option name="PATTERN" value="main.neetcode75.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.youtubelearn.ThreadTester" />
-      <module name="Leetcode-2024-Discord" />
+    <configuration name="SearchWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.neetcode75.SearchWord" />
+      <module name="project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.leetcode.*" />
+          <option name="PATTERN" value="main.neetcode75.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrefixTree" />
+        <item itemvalue="Application.SearchWord" />
+        <item itemvalue="Application.DesignHashSet" />
         <item itemvalue="Application.HashMapDesign" />
         <item itemvalue="Application.RunLRU" />
-        <item itemvalue="Application.ThreadTester" />
-        <item itemvalue="Application.CoordinatesCollide" />
-        <item itemvalue="Application.RottenTree" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +170,7 @@
       <updated>1724451511780</updated>
       <workItem from="1727725079886" duration="2331000" />
       <workItem from="1727727421265" duration="18000" />
-      <workItem from="1727727444562" duration="712000" />
+      <workItem from="1727727444562" duration="10278000" />
     </task>
     <task id="LOCAL-00001" summary="New Repo">
       <created>1724721990489</created>

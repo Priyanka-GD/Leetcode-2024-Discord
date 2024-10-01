@@ -31,16 +31,17 @@ public class DesignHashSet {
         int idx = hashCode(key);
         return buckets[idx].contains(key);
     }
+
     public static void main(String args[]) throws IOException {
         DesignHashSet designHashSet = new DesignHashSet();
         designHashSet.add(1);
         designHashSet.add(2);
-        designHashSet.contains(1);
-        designHashSet.contains(3);
+        System.out.println("Contains : " + designHashSet.contains(1));
+        System.out.println("Contains : " + designHashSet.contains(3));
         designHashSet.add(2);
-        designHashSet.contains(2);
+        System.out.println("Contains : " + designHashSet.contains(2));
         designHashSet.remove(2);
-        designHashSet.contains(2);
+        System.out.println("Contains : " + designHashSet.contains(2));
     }
 }
 
