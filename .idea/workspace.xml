@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0920010c-7ae0-4ab0-8806-74bf372672e7" name="Changes" comment="Neetcode 75">
-      <change afterPath="$PROJECT_DIR$/src/main/java/discord/ReconstructQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/discord/TicTacToeWinner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/neetcode75/NumIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/neetcode75/PacificAtlantic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +62,16 @@
   "keyToString": {
     "Application.DesignHashSet.executor": "Debug",
     "Application.HashMapDesign.executor": "Run",
+    "Application.NumIslands.executor": "Run",
+    "Application.PacificAtlantic.executor": "Run",
     "Application.RunLRU.executor": "Run",
     "Application.SearchWord.executor": "Run",
+    "Application.TicTacToeWinner.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/Priyanka/Desktop/Projects/Leetcode-2024-Discord/pom.xml",
+    "last_opened_file_path": "/Users/priyanka/Desktop/Assessment/Leetcode-2024-Discord",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,9 +84,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PrefixTree">
-    <configuration name="DesignHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.neetcode75.DesignHashSet" />
+  <component name="RunManager" selected="Application.TicTacToeWinner">
+    <configuration name="NumIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.neetcode75.NumIslands" />
       <module name="project" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.neetcode75.HashMapDesign" />
+    <configuration name="PacificAtlantic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.neetcode75.PacificAtlantic" />
       <module name="project" />
       <extension name="coverage">
         <pattern>
@@ -116,19 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunLRU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.cogbee.RunLRU" />
-      <module name="project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.cogbee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SearchWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.neetcode75.SearchWord" />
       <module name="project" />
@@ -142,13 +137,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicTacToeWinner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.discord.TicTacToeWinner" />
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.discord.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TicTacToeWinner" />
+        <item itemvalue="Application.NumIslands" />
+        <item itemvalue="Application.PacificAtlantic" />
         <item itemvalue="Application.PrefixTree" />
         <item itemvalue="Application.SearchWord" />
-        <item itemvalue="Application.DesignHashSet" />
-        <item itemvalue="Application.HashMapDesign" />
-        <item itemvalue="Application.RunLRU" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +179,8 @@
       <workItem from="1727725079886" duration="2331000" />
       <workItem from="1727727421265" duration="18000" />
       <workItem from="1727727444562" duration="10278000" />
+      <workItem from="1727914607005" duration="2378000" />
+      <workItem from="1728406971301" duration="1478000" />
     </task>
     <task id="LOCAL-00001" summary="New Repo">
       <created>1724721990489</created>
@@ -397,5 +407,21 @@
     <MESSAGE value="Discord" />
     <MESSAGE value="Neetcode 75" />
     <option name="LAST_COMMIT_MESSAGE" value="Neetcode 75" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/discord/TicTacToeWinner.java</url>
+          <line>24</line>
+          <log-expression expression="   public String tictactoe (int[][] moves) {&#10;        boolean Aturn = true;&#10;        char[][] board = new char[3][3];&#10;&#10;        for (int move[] : moves) {&#10;            if (Aturn) {&#10;                board[move[0]][move[1]] = 'X';&#10;                if (searchDiagonal(board, 'X') || searchRow(board, 'X') || searchColumn(board, 'X'))&#10;                    return &quot;A&quot;;&#10;            } else {&#10;                board[move[0]][move[1]] = 'O';&#10;                if (searchDiagonal(board, 'O') || searchRow(board, 'O') || searchColumn(board, ')'))&#10;                    return &quot;B&quot;;&#10;            }&#10;            Aturn = !Aturn;&#10;&#10;        }&#10;        return &quot;Draw&quot;;&#10;&#10;    }&#10;&#10;    private boolean searchDiagonal (char[][] board, char playerChar) {&#10;        for (int row = 0; row &lt; board.length; row++) {&#10;            if (board[row][row] != playerChar)&#10;                return false;&#10;        }&#10;        return true;&#10;    }&#10;&#10;    private boolean searchRow (char[][] board, char playerChar) {&#10;        for (int row = 0; row &lt; board.length; row++) {&#10;            for (int col = 0; col &lt; board[0].length; col++) {&#10;                if (board[row][col] != playerChar)&#10;                    return false;&#10;            }&#10;        }&#10;        return true;&#10;    }&#10;&#10;    private boolean searchColumn (char[][] board, char playerChar) {&#10;        for (int col = 0; col &lt; board[0].length; col++) {&#10;            for (int row = 0; row &lt; board.length; row++) {&#10;                if (board[row][col] != playerChar)&#10;                    return false;&#10;            }&#10;        }&#10;        return true;&#10;    }" language="JAVA" />
+          <properties class="main.discord.TicTacToeWinner" method="tictactoe">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
